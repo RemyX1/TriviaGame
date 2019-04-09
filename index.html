@@ -4,21 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <title>Trivia</title>
 </head>
+
+<div class="container">
+
 <body>
-<h1>Trivia Game!</h1>
-<h2>Test your knowledge!</h2>
+    <div class="row">
+    <div class="nav-wrapper">
+<h1 class="blue white-text center">Math Quiz</h1>
+</div>
+</div>
+<h2 class="blue-text darken-3 center">Test your knowledge!</h2>
 
-<div>
+<form>
+    
+    <div class="container">
+        <div class="row">
+    <div id="Questions"></div>
+    
+</div>
+</div>
 
-
-
+<div class="container">
+    <div class="row">
+        <div id="button"><button class="btn waves-effect waves-light blue" type="submit" name="action" id="Submit">Submit</button></div>
+    <div>
 </div>
 
 
+<div class="container">
+    <div class="row">
+        <div class=" offset col-6 center blue-text"><h2  id="finalScore"></h2></div>
+        <div class="offset col-6 center blue-text"><h2 id="Score"></h2></div>
+        <div  class="offset center blue-text"><h2 id="Message"></h2></div>
+    </div>
+</div>
+
+ </form>
+  
+
     
+</div>
+
 </body>
+
 </html>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="assets/javascript/app.js"></script>
